@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense tracker</title>
+</head>
+<body value = '200' title="400">
+
+    <div class="container">
+
+        <h1 class="heading">
+            Expense tracker
+        </h1>
+   <div class="total-balance">
+     Your total balance is  <span>R</span><span class="total"></span>
+   </div>
+
+     <div class="infor">
+        <div class="expense">
+         0
+          </div>
+          <div class="income">
+             0
+          </div>
+     </div>
+
+        <div class="expense-details">
+            <div class="history">
+                Transaction history
+            </div>
+            <div class="center">
+                Your transaction history will appear here. To start adding transactions, please fill in the inputs bellow.
+            </div>
+         
+        </div>
+
+        <div class="inputs">
+            <div class="history">
+                Add transaction
+            </div>
+            <span>please <strong>note:</strong> negative value means expense and positive value means an income</span>
+            <span class="error">
+                Please all fields must be filled
+            </span>
+            <input type="text" placeholder="please enter a derscription" class="description-2">
+            <label for="number">Enter amount</label>
+            <input type="number" name="number" id="amount">
+            <button class="btn">click to add  transactions</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
